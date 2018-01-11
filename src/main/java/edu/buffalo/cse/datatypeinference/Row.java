@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Row {
 	private Object[] data;
-	public String getClassValue()
-    {
+	
+	public String getClassValue(){
         return (String)data[data.length-1];
     }
-	public Object getAtIndex(int i)
-    {
+	
+	public Object getAtIndex(int i){
         return data[i];
     }
 	
