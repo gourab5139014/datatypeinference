@@ -23,10 +23,10 @@ public class Column { //TODO Manual inspection of code before test
     }
 
     
-    public Object convert( String data ) {
+    public Object convert( String data ) { // TODO Refer Olivers email about data type casts
         data = data.trim();
         if( type == DataType.NUMERIC ) {
-           return Double.parseDouble( data ); //TODO Check if this covers integers
+           return Double.parseDouble( data );
         } else {
            return data;
         }
